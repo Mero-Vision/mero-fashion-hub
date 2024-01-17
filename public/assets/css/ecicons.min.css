@@ -8,46 +8,46 @@
  * -------------------------- */
  @font-face {
   font-family: "uicons-regular-rounded";
-  src: url("../../fonts/ecicons/uicons-regular-rounded.eot#iefix") format("embedded-opentype"),
-      url("../../fonts/ecicons/uicons-regular-rounded.woff2") format("woff2"),
-      url("../../fonts/ecicons/uicons-regular-rounded.woff") format("woff");
+  src: url("./../fonts/ecicons/uicons-regular-rounded.eot#iefix") format("embedded-opentype"),
+      url("./../fonts/uicons-regular-rounded.woff2") format("woff2"),
+      url("./../fonts/uicons-regular-rounded.woff") format("woff");
 }
 
 @font-face {
   font-family: "uicons-brands";
-  src: url("../../fonts/ecicons/uicons-brands.eot#iefix") format("embedded-opentype"),
-      url("../../fonts/ecicons/uicons-brands.woff2") format("woff2"),
-      url("../../fonts/ecicons/uicons-brands.woff") format("woff");
+  src: url("./../fonts/ecicons/uicons-brands.eot#iefix") format("embedded-opentype"),
+      url("./../fonts/ecicons/uicons-brands.woff2") format("woff2"),
+      url("./../fonts/ecicons/uicons-brands.woff") format("woff");
 }
 
 @font-face {
   font-family: "uicons-regular-straight";
-  src: url("../../fonts/ecicons/uicons-regular-straight.eot#iefix") format("embedded-opentype"),
-      url("../../fonts/ecicons/uicons-regular-straight.woff2") format("woff2"),
-      url("../../fonts/ecicons/uicons-regular-straight.woff") format("woff");
+  src: url("./../fonts/uicons-regular-straight.eot#iefix") format("embedded-opentype"),
+      url("./../fonts/uicons-regular-straight.woff2") format("woff2"),
+      url("./../fonts/uicons-regular-straight.woff") format("woff");
 }
 
 @font-face {
   font-family: "uicons-thin-rounded";
-  src: url("../../fonts/ecicons/uicons-thin-rounded.eot#iefix") format("embedded-opentype"),
-      url("../../fonts/ecicons/uicons-thin-rounded.woff2") format("woff2"),
-      url("../../fonts/ecicons/uicons-thin-rounded.woff") format("woff");
+  src: url("./../fonts/uicons-thin-rounded.eot#iefix") format("embedded-opentype"),
+      url("./../fonts/uicons-thin-rounded.woff2") format("woff2"),
+      url("./../fonts/uicons-thin-rounded.woff") format("woff");
 }
 
 @font-face {
   font-family: "uicons-thin-straight";
-  src: url("../../fonts/ecicons/uicons-thin-straight.eot#iefix") format("embedded-opentype"),
-      url("../../fonts/ecicons/uicons-thin-straight.woff2") format("woff2"),
-      url("../../fonts/ecicons/uicons-thin-straight.woff") format("woff");
+  src: url("./../fonts/uicons-thin-straight.eot#iefix") format("embedded-opentype"),
+      url("./../fonts/uicons-thin-straight.woff2") format("woff2"),
+      url("./../fonts/uicons-thin-straight.woff") format("woff");
 }
 @font-face {
   font-family: 'EcIcons';
-  src: url('../../fonts/ecicons/ecicons.eot?v=4.7.0');
-  src: url('../../fonts/ecicons/ecicons.eot?#iefix&v=4.7.0') format('embedded-opentype'), 
-  	   url('../../fonts/ecicons/ecicons.woff2?v=4.7.0') format('woff2'), 
-  	   url('../../fonts/ecicons/ecicons.woff?v=4.7.0') format('woff'), 
-  	   url('../../fonts/ecicons/ecicons.ttf?v=4.7.0') format('truetype'), 
-  	   url('../../fonts/ecicons/ecicons.svg?v=4.7.0#fontawesomeregular') format('svg');
+  src: url('./../fonts/ecicons.eot?v=4.7.0');
+  src: url('./../fonts/ecicons\ \(1\).eot') format('embedded-opentype'), 
+  	   url('./../fonts/ecicons.woff2?v=4.7.0') format('woff2'), 
+  	   url('./../fonts/ecicons.woff?v=4.7.0') format('woff'), 
+  	   url('./../fonts/ecicons.ttf?v=4.7.0') format('truetype'), 
+  	   url('./../fonts/ecicons.svg?v=4.7.0#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }

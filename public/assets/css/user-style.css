@@ -12,7 +12,7 @@
 ---------------------------------------------------*/
 @font-face {
   font-family: "Poppins, sans-serif";
-  src: url("./../fonts/poppins/Poppins-Thin.ttf") format("truetype");
+  src: url("./../fonts/Poppins-Thin.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
 }
@@ -24,49 +24,49 @@
 }
 @font-face {
   font-family: "Poppins, sans-serif";
-  src: url("./../fonts/poppins/Poppins-Light.ttf");
+  src: url("./../fonts/Poppins-Light.ttf");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "Poppins, sans-serif";
-  src: url("./../fonts/poppins/Poppins-Regular.ttf") format("truetype");
+  src: url("./../fonts/Poppins-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Poppins, sans-serif";
-  src: url("./../fonts/poppins/Poppins-Medium.ttf") format("truetype");
+  src: url("./../fonts/Poppins-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Poppins, sans-serif";
-  src: url("./../fonts/poppins/Poppins-SemiBold.ttf") format("truetype");
+  src: url("./../fonts/Poppins-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: "Poppins, sans-serif";
-  src: url("./../fonts/poppins/Poppins-Bold.ttf") format("truetype");
+  src: url("./../fonts/Poppins-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: "Poppins, sans-serif";
-  src: url("./../fonts/poppins/Poppins-ExtraBold.ttf") format("truetype");
+  src: url("./../fonts/Poppins-ExtraBold.ttf") format("truetype");
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
   font-family: "Poppins, sans-serif";
-  src: url("./../fonts/poppins/Poppins-Black.ttf") format("truetype");
+  src: url("./../fonts/Poppins-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
   font-family: "Fjalla One";
-  src: url("./../fonts/fjalla/FjallaOne-Regular.ttf") format("truetype");
+  src: url("./../fonts/FjallaOne-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Montserrat";
@@ -17630,7 +17630,7 @@ li.ec-brand-item {
 
 .slide-1 {
   width: 100%;
-  background-image: url(../images/main-slider-banner/5.jpg);
+  background-image: url(../img/slider/5.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -17639,7 +17639,7 @@ li.ec-brand-item {
 
 .slide-2 {
   width: 100%;
-  background-image: url(../images/main-slider-banner/6.jpg);
+  background-image: url(../img/slider/6.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -17648,7 +17648,7 @@ li.ec-brand-item {
 
 .slide-3 {
   width: 100%;
-  background-image: url(../images/main-slider-banner/7.jpg);
+  background-image: url(../img/slider/7.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

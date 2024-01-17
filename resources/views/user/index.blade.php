@@ -303,7 +303,7 @@
                                             <ul class="ec-main-banner w-100">
                                                 <li><a class="p-0" href="shop-left-sidebar-col-3.html"><img
                                                             class="img-responsive"
-                                                            src="assets/images/menu-banner/5.jpg" alt=""></a>
+                                                            src="{{url('assets/img/5.jpg')}}" alt=""></a>
                                                 </li>
                                                 <li><a class="p-0" href="shop-left-sidebar-col-4.html"><img
                                                             class="img-responsive"
@@ -315,7 +315,7 @@
                                                 </li>
                                                 <li><a class="p-0" href="shop-right-sidebar-col-4.html"><img
                                                             class="img-responsive"
-                                                            src="assets/images/menu-banner/8.jpg" alt=""></a>
+                                                            src="{{url('assets/img/8.jpg')}}" alt=""></a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -552,7 +552,7 @@
                                     </ul>
                                 </li>
                                 <li><a class="p-0" href="shop-left-sidebar-col-3.html"><img class="img-responsive"
-                                            src="assets/images/menu-banner/5.jpg" alt=""></a>
+                                            src="{{url('assets/img/5.jpg')}}" alt=""></a>
                                 </li>
                             </ul>
                         </li>
@@ -959,7 +959,7 @@
                     <div class="ec-banner-inner">
                         <div class="ec-banner-block ec-banner-block-4 mar-b-30">
                             <div class="banner-block">
-                                <img src="assets/images/banner/13.jpg" alt="" />
+                                <img src="{{url('assets/img/banner/13.jpg')}}" alt="" />
                                 <div class="banner-content">
                                     <div class="banner-text">
                                         <span class="ec-banner-discount">Big Discount</span>
@@ -972,7 +972,7 @@
                         </div>
                         <div class="ec-banner-block ec-banner-block-5">
                             <div class="banner-block">
-                                <img src="assets/images/banner/14.jpg" alt="" />
+                                <img src="{{url('assets/img/banner/14.jpg')}}" alt="" />
                                 <div class="banner-content">
                                     <div class="banner-text">
                                         <span class="ec-banner-discount">Big Discount</span>
@@ -1640,7 +1640,7 @@
     <!--  offer Section Start -->
     <section class="section ec-offer-section section-space-mt section-space-mb">
         <h2 class="d-none">Offer</h2>
-        <img src="assets/images/offer-image/offer_bg_2.jpg" alt="" class="offer_bg" />
+        <img src="{{url('assets/img/offer_bg_2.jpg')}}" alt="" class="offer_bg" />
         <div class="ec-offer-inner">
             <div class="row justify-content-end">
                 <div class="col-xl-6 col-lg-7 col-md-7 col-sm-7 align-self-center ec-offer-content">
@@ -3661,7 +3661,7 @@
                             <!-- instagram item -->
                             <div class="ec-insta-item">
                                 <div class="ec-insta-inner">
-                                    <a href="#" target="_blank"><img src="assets/images/instragram-image/1.jpg"
+                                    <a href="#" target="_blank"><img src="{{url('assets/img/social-media/1.jpg')}}"
                                             alt="">
 
                                     </a>
