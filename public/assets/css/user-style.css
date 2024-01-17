@@ -20144,3 +20144,64 @@ section.ec-instagram-section {
   }
 }
 /*# sourceMappingURL=demo2.css.map */
+
+
+/*-------------------------------------------------
+  Breadcrumb Style CSS
+---------------------------------------------------*/
+.ec-breadcrumb {
+  padding: 15px 0;
+  background-color: #f7f7f7;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+.ec-breadcrumb .ec-breadcrumb-title {
+  text-decoration: none;
+  color: #444444;
+  display: block;
+  font-size: 15px;
+  font-family: "Montserrat";
+  line-height: 22px;
+  font-weight: 700;
+  margin: 0 auto;
+  text-transform: capitalize;
+}
+
+.ec-breadcrumb-list {
+  text-align: right;
+}
+.ec-breadcrumb-list li {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.02rem;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+.ec-breadcrumb-list li a {
+  position: relative;
+  color: #444444;
+}
+.ec-breadcrumb-list li.active {
+  color: #3474d4;
+}
+.ec-breadcrumb-list .ec-breadcrumb-item.active::before {
+  color: #3474d4;
+}
+
+.ec-breadcrumb-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.ec-breadcrumb-item + .ec-breadcrumb-item {
+  padding-left: 7px;
+}
+.ec-breadcrumb-item + .ec-breadcrumb-item::before {
+  display: inline-block;
+  padding-right: 7px;
+  color: #444444;
+  content: "\f101";
+  font-family: "EcIcons";
+  font-size: 15px;
+}

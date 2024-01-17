@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\User\AuthController;
+use App\Http\Controllers\User\RegisterAccountController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +18,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('user.index');
 });
+
+Route::get('login',[AuthController::class,'index']);
+Route::get('register', [RegisterAccountController::class, 'index']);
