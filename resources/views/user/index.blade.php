@@ -307,7 +307,7 @@
                                                 </li>
                                                 <li><a class="p-0" href="shop-left-sidebar-col-4.html"><img
                                                             class="img-responsive"
-                                                            src="assets/images/menu-banner/6.jpg" alt=""></a>
+                                                            src="{{url('assets/img/menu-banner/6.jpg')}}" alt=""></a>
                                                 </li>
                                                 <li><a class="p-0" href="shop-right-sidebar-col-3.html"><img
                                                             class="img-responsive"
@@ -2417,7 +2417,7 @@
                                                                     style="background-color:#fc0404;"></span></a></li>
                                                         <li><a href="#" class="ec-opt-clr-img"
                                                                 data-src="assets/images/product-image/2_1.jpg"
-                                                                data-src-hover="assets/images/product-image/2_2.jpg"
+                                                                data-src-hover="{{url('assets/img/products/2_2.jpg')}}"
                                                                 data-tooltip="Orange"><span
                                                                     style="background-color:#dadb10;"></span></a></li>
                                                         <li><a href="#" class="ec-opt-clr-img"
@@ -3538,72 +3538,7 @@
     </section>
     <!-- ec Product tab Area End -->
 
-    <!-- ec testimonial Start -->
-    <section class="section ec-test-section section-space-mt section-space-mb section-space-p"
-        style="background-image: url('assets/images/testimonial/testi_bg.jpg');">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center ec-test-top">
-                    <div class="ec-test-top-svg">
-                        <h2 class="d-none">Testimonial</h2>
-                        <i class="fi-rr-quote-right"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="ec-test-outer">
-                    <ul id="ec-testimonial-slider">
-                        <li class="ec-test-item">
-                            <div class="ec-test-inner">
-                                <div class="ec-test-img"><img alt="testimonial" title="testimonial"
-                                        src="assets/images/testimonial/4.jpg" /></div>
-                                <div class="ec-test-content">
-                                    <div class="ec-test-desc"><i class="fi-rr-quote-right top"></i> Lorem Ipsum is simply dummy text of
-                                        the printing and typesetting industry. Lorem Ipsum has been the industry's
-                                        standard dummy text ever since the 1500s, when an unknown printer took a galley
-                                        of type and scrambled it to make a type specimen book. It has survived not only
-                                        five centuries, but also the leap into electronic typesetting, remaining
-                                        essentially unchanged. It was popularised in <i class="fi-rr-quote-right bottom"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="ec-test-item">
-                            <div class="ec-test-inner">
-                                <div class="ec-test-img"><img alt="testimonial" title="testimonial"
-                                        src="assets/images/testimonial/5.jpg" /></div>
-                                <div class="ec-test-content">
-                                    <div class="ec-test-desc"><i class="fi-rr-quote-right top"></i> Lorem Ipsum is simply dummy text of
-                                        the printing and typesetting industry. Lorem Ipsum has been the industry's
-                                        standard dummy text ever since the 1500s, when an unknown printer took a galley
-                                        of type and scrambled it to make a type specimen book. It has survived not only
-                                        five centuries, but also the leap into electronic typesetting, remaining
-                                        essentially unchanged. It was popularised in <i class="fi-rr-quote-right bottom"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="ec-test-item">
-                            <div class="ec-test-inner">
-                                <div class="ec-test-img"><img alt="testimonial" title="testimonial"
-                                        src="assets/images/testimonial/6.jpg" /></div>
-                                <div class="ec-test-content">
-                                    <div class="ec-test-desc"><i class="fi-rr-quote-right top"></i> Lorem Ipsum is simply dummy text of
-                                        the printing and typesetting industry. Lorem Ipsum has been the industry's
-                                        standard dummy text ever since the 1500s, when an unknown printer took a galley
-                                        of type and scrambled it to make a type specimen book. It has survived not only
-                                        five centuries, but also the leap into electronic typesetting, remaining
-                                        essentially unchanged. It was popularised in <i class="fi-rr-quote-right bottom"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ec testimonial end -->
+    
 
     <!--  services Section Start -->
     <section class="section ec-services-section section-space-p">
@@ -3648,243 +3583,11 @@
     </section>
     <!--services Section End -->
 
-    <!-- Ec Instagram Start -->
-    <section class="section ec-instagram-section section-space-p">
-        <div class="container">
-            <div class="row">
-                <div class="ec-insta-wrapper">
-                    <div class="ec-title">
-                        <h2>@Instagram</h2>
-                    </div>
-                    <div class="ec-insta-outer">
-                        <div class="insta-auto">
-                            <!-- instagram item -->
-                            <div class="ec-insta-item">
-                                <div class="ec-insta-inner">
-                                    <a href="#" target="_blank"><img src="{{url('assets/img/social-media/1.jpg')}}"
-                                            alt="">
+  
 
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- instagram item -->
-                            <div class="ec-insta-item">
-                                <div class="ec-insta-inner">
-                                    <a href="#" target="_blank"><img src="assets/images/instragram-image/2.jpg"
-                                            alt="">
+    
 
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- instagram item -->
-                            <div class="ec-insta-item">
-                                <div class="ec-insta-inner">
-                                    <a href="#" target="_blank"><img src="assets/images/instragram-image/3.jpg"
-                                            alt="">
-
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- instagram item -->
-                            <div class="ec-insta-item">
-                                <div class="ec-insta-inner">
-                                    <a href="#" target="_blank"><img src="assets/images/instragram-image/4.jpg"
-                                            alt="">
-
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- instagram item -->
-                            <div class="ec-insta-item">
-                                <div class="ec-insta-inner">
-                                    <a href="#" target="_blank"><img src="assets/images/instragram-image/5.jpg"
-                                            alt="">
-
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- instagram item -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Ec Instagram End -->
-
-    <!-- Ec Brand Section Start -->
-    <section class="section ec-brand-area section-space-p">
-        <h2 class="d-none">Brand</h2>
-        <div class="container">
-            <div class="row">
-                <div class="ec-brand-outer">
-                    <ul id="ec-brand-slider">
-                        <li class="ec-brand-item">
-                            <div class="ec-brand-img"><a href="#"><img alt="brand" title="brand"
-                                        src="assets/images/brand-image/1.png" /></a></div>
-                        </li>
-                        <li class="ec-brand-item">
-                            <div class="ec-brand-img"><a href="#"><img alt="brand" title="brand"
-                                        src="assets/images/brand-image/2.png" /></a></div>
-                        </li>
-                        <li class="ec-brand-item">
-                            <div class="ec-brand-img"><a href="#"><img alt="brand" title="brand"
-                                        src="assets/images/brand-image/3.png" /></a></div>
-                        </li>
-                        <li class="ec-brand-item">
-                            <div class="ec-brand-img"><a href="#"><img alt="brand" title="brand"
-                                        src="assets/images/brand-image/4.png" /></a></div>
-                        </li>
-                        <li class="ec-brand-item">
-                            <div class="ec-brand-img"><a href="#"><img alt="brand" title="brand"
-                                        src="assets/images/brand-image/5.png" /></a></div>
-                        </li>
-                        <li class="ec-brand-item">
-                            <div class="ec-brand-img"><a href="#"><img alt="brand" title="brand"
-                                        src="assets/images/brand-image/6.png" /></a></div>
-                        </li>
-                        <li class="ec-brand-item">
-                            <div class="ec-brand-img"><a href="#"><img alt="brand" title="brand"
-                                        src="assets/images/brand-image/7.png" /></a></div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Ec Brand Section End -->
-
-    <!-- Footer Start -->
-    <footer class="ec-footer section-space-mt">
-        <div class="footer-newletter">
-            <div class="container">
-                <div class="row">
-                    <div class="text-center footer-news-inner">
-                        <div class="footer-news-block">
-                            <div class="footer-news-title">Subscribe For Join Us!</div>
-                            <div class="ec-subscribe-form">
-                                <form id="ec-newsletter-form" name="ec-newsletter-form" method="post" action="#">
-                                    <div id="ec_news_signup" class="ec-form">
-                                        <input class="ec-email" type="email" required="" placeholder="Enter your email"
-                                            name="ec-email" value="" />
-                                        <button id="ec-news-btn" class="button btn-secondary" type="submit"
-                                            name="subscribe" value="">Subscribe</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-container">
-            <div class="footer-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12 col-lg-3 ec-footer-contact">
-                            <div class="ec-footer-widget">
-                                <h4 class="ec-footer-heading">Contact</h4>
-                                <div class="ec-footer-links">
-                                    <ul class="align-items-center">
-                                        <li class="ec-footer-link"><span><i
-                                                    class="ecicon eci-map-marker"></i></span>2548 Broaddus Maple Court
-                                            Avenue, Madisonville KY 4783, United States of America</li>
-                                        <li class="ec-footer-link"><span><i class="ecicon eci-phone"></i></span><a
-                                                href="tel:+919874563210">+91 987 456 3210</a></li>
-                                        <li class="ec-footer-link"><span><i class="ecicon eci-envelope"></i></span><a
-                                                href="mailto:support@ekart.com">support@ekart.com</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-lg-3 ec-footer-info">
-                            <div class="ec-footer-widget">
-                                <h4 class="ec-footer-heading">Useful links </h4>
-                                <div class="ec-footer-links">
-                                    <ul class="align-items-center">
-                                        <li class="ec-footer-link"><a href="about-us.html">About us</a></li>
-                                        <li class="ec-footer-link"><a href="track-order.html">Delivery Information</a></li>
-                                        <li class="ec-footer-link"><a href="privacy-policy.html">Privacy policy</a></li>
-                                        <li class="ec-footer-link"><a href="terms-condition.html">Terms & conditions</a>
-                                        </li>
-                                        <li class="ec-footer-link"><a href="contact-us.html">Contact us</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-lg-3 ec-footer-account">
-                            <div class="ec-footer-widget">
-                                <h4 class="ec-footer-heading">Account</h4>
-                                <div class="ec-footer-links">
-                                    <ul class="align-items-center">
-                                        <li class="ec-footer-link"><a href="user-profile.html">My Account</a></li>
-                                        <li class="ec-footer-link"><a href="track-order.html">Order History</a></li>
-                                        <li class="ec-footer-link"><a href="wishlist.html">Wish List</a></li>
-                                        <li class="ec-footer-link"><a href="#">Affiliates</a></li>
-                                        <li class="ec-footer-link"><a href="#">Newsletter</a></li>
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-lg-3 ec-footer-service">
-                            <div class="ec-footer-widget">
-                                <h4 class="ec-footer-heading">Services</h4>
-                                <div class="ec-footer-links">
-                                    <ul class="align-items-center">
-                                        <li class="ec-footer-link"><a href="terms-condition.html">Terms & conditions</a>
-                                        </li>
-                                        <li class="ec-footer-link"><a href="privacy-policy.html">Privacy policy</a></li>
-                                        <li class="ec-footer-link"><a href="privacy-policy.html">Shipping Policy</a></li>
-                                        <li class="ec-footer-link"><a href="privacy-policy.html">Return Policy</a></li>
-                                        <li class="ec-footer-link"><a href="faq.html">FAQ</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 ec-footer-social">
-                            <div class="ec-footer-widget">
-                                <h4 class="ec-footer-heading">Follow Us</h4>
-                                <div class="ec-footer-links">
-                                    <ul class="align-items-center">
-                                        <li class="ec-footer-link"><a href="#">facebook</a></li>
-                                        <li class="ec-footer-link"><a href="#">twitter</a></li>
-                                        <li class="ec-footer-link"><a href="#">linkedin</a></li>
-                                        <li class="ec-footer-link"><a href="#">instagram</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <div class="container">
-                    <div class="row">
-                        <!-- Footer Copyright Start -->
-                        <div class="col footer-copy">
-                            <div class="footer-bottom-copy ">
-                                <div class="ec-copy">© <span id="copyright_year"></span> <a class="site-name" href="#">ekka</a>. All Rights
-                                    Reserved.</div>
-                            </div>
-                        </div>
-                        <!-- Footer Copyright End -->
-                        <!-- Footer payment -->
-                        <div class="col footer-bottom-right">
-                            <div class="footer-bottom-payment d-flex justify-content-end">
-                                <div class="payment-link">
-                                    <img src="assets/images/icons/payment.png" alt="">
-                                </div>
-
-                            </div>
-                        </div>
-                        <!-- Footer payment -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- Footer Area End -->
+  
 
     <!-- Modal -->
     <div class="modal fade" id="ec_quickview_modal" tabindex="-1">
@@ -4001,20 +3704,7 @@
     </div>
     <!-- Modal end -->
 
-    <!-- Newsletter Modal Start -->
-    <div id="ec-popnews-bg"></div>
-    <div id="ec-popnews-box">
-        <div id="ec-popnews-close"><i class="ecicon eci-close"></i></div>
-        <div id="ec-popnews-box-content">
-            <h1>Subscribe Newsletter</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <form id="ec-popnews-form" action="#" method="post">
-                <input type="email" name="newsemail" placeholder="Email Address" required />
-                <button type="button" class="btn btn-primary" name="subscribe">Subscribe</button>
-            </form>
-        </div>
-    </div>
-    <!-- Newsletter Modal end -->
+    
 
     <!-- Add to Cart successfully toast Start -->
     <div id="addtocart_toast" class="addtocart_toast">
@@ -4076,25 +3766,8 @@
         </div>
     </div>
     <!-- Chat Boat end -->
-
-    <!-- Vendor JS -->
-    <script src="{{url('assets/js/jquery-3.5.1.min.js')}}"></script>
-    <script src="{{url('assets/js/popper.min.js')}}"></script>
-    <script src="{{url('assets/js/bootstrap.min.js')}}"></script>
-    <script src="{{url('assets/js/jquery-migrate-3.3.0.min.js')}}"></script>
-    <script src="{{url('assets/js/modernizr-3.11.2.min.js')}}"></script>
-
-    <!--Plugins JS-->
-    <script src="{{url('assets/js/swiper-bundle.min.js')}}"></script>
-    <script src="{{url('assets/js/scrollup.js')}}"></script>
-    <script src="{{url('assets/js/jquery.zoom.min.js')}}"></script>
-    <script src="{{url('assets/js/slick.min.js')}}"></script>
-    <script src="{{url('assets/js/infiniteslidev2.js')}}"></script>
-    <script src="{{url('assets/js/chat-boat.js')}}"></script>
-
-    <!-- Main Js -->
-    <script src="{{url('assets/js/index.js')}}"></script>
-    <script src="{{url('assets/js/user.js')}}"></script>
+@include('user.layout.footer')
+    
 
 </body>
 
